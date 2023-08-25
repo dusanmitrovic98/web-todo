@@ -32,3 +32,4 @@ body {
 
 .input-container {
   display: flex;
+  justify-content: center;
