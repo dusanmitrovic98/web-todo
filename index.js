@@ -16,3 +16,4 @@ function addTask() {
   if (taskText !== "") {
     const newTask = document.createElement("div");
     newTask.className = "task";
+    newTask.textContent = taskText;
