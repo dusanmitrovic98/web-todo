@@ -20,3 +20,4 @@ function addTask() {
     taskList.appendChild(newTask);
     taskInput.value = "";
   }
+}
