@@ -30,3 +30,4 @@ function clearAllTasks() {
 
 taskList.addEventListener("click", (e) => {
   if (e.target.classList.contains("task")) {
+    e.target.remove();
