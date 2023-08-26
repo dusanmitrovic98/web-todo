@@ -22,3 +22,4 @@ function addTask() {
   }
 }
 
+function clearAllTasks() {
