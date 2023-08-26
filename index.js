@@ -14,3 +14,4 @@ taskInput.addEventListener("keyup", function (event) {
 function addTask() {
   const taskText = taskInput.value.trim();
   if (taskText !== "") {
+    const newTask = document.createElement("div");
