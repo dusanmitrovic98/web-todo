@@ -33,3 +33,4 @@ taskList.addEventListener("click", (e) => {
     e.target.remove();
   }
 });
+
