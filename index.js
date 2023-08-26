@@ -18,3 +18,4 @@ function addTask() {
     newTask.className = "task";
     newTask.textContent = taskText;
     taskList.appendChild(newTask);
+    taskInput.value = "";
