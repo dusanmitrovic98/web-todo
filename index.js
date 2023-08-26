@@ -5,3 +5,4 @@ const taskList = document.getElementById("task-list");
 
 addButton.addEventListener("click", addTask);
 clearAllButton.addEventListener("click", clearAllTasks);
+taskInput.addEventListener("keyup", function (event) {
