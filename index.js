@@ -17,3 +17,4 @@ function addTask() {
     const newTask = document.createElement("div");
     newTask.className = "task";
     newTask.textContent = taskText;
+    taskList.appendChild(newTask);
