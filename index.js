@@ -15,3 +15,4 @@ function addTask() {
   const taskText = taskInput.value.trim();
   if (taskText !== "") {
     const newTask = document.createElement("div");
+    newTask.className = "task";
