@@ -23,3 +23,4 @@ function addTask() {
 }
 
 function clearAllTasks() {
+  while (taskList.firstChild) {
