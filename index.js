@@ -3,3 +3,4 @@ const clearAllButton = document.getElementById("clear-all-button");
 const taskInput = document.getElementById("task-input");
 const taskList = document.getElementById("task-list");
 
+addButton.addEventListener("click", addTask);
