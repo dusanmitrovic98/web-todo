@@ -10,3 +10,4 @@ taskInput.addEventListener("keyup", function (event) {
     addTask();
   }
 });
+
