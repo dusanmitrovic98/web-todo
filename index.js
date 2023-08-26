@@ -28,3 +28,4 @@ function clearAllTasks() {
   }
 }
 
+taskList.addEventListener("click", (e) => {
