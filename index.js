@@ -7,3 +7,4 @@ addButton.addEventListener("click", addTask);
 clearAllButton.addEventListener("click", clearAllTasks);
 taskInput.addEventListener("keyup", function (event) {
   if (event.key === "Enter") {
+    addTask();
