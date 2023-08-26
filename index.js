@@ -27,3 +27,4 @@ function clearAllTasks() {
     taskList.removeChild(taskList.firstChild);
   }
 }
+
